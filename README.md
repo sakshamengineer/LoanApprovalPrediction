@@ -273,7 +273,7 @@ If you'd like to improve the project:
 
 🔗 GitHub: https://github.com/sakshamengineer
 
-🔗 LinkedIn: *(Add Your LinkedIn Profile)*
+🔗 LinkedIn: https://www.linkedin.com/in/sakshamgupta06
 
 ---
 
