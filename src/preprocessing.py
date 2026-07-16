@@ -4,6 +4,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.model_selection import train_test_split
 import joblib
 import torch
+import config
 
 education_order = ["High School","Associate","Bachelor","Master","Doctorate"]
 
@@ -36,7 +37,7 @@ def prepare_data(Data_path,device):
 
     X_train = preprocessor.fit_transform(X_train)
     X_test = preprocessor.transform(X_test)
-    joblib.dump(preprocessor, "models/preprocessor.pkl")
+    joblib.dump(preprocessor,config.PREPROCESSOR_PATH)
 
     return (
         X_train,
